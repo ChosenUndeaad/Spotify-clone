@@ -1,7 +1,6 @@
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import appleMusic from "../assets/logos/music.svg";
 import "bootstrap-icons/font/bootstrap-icons.css";
-
 function MyNavbar() {
   return (
     <Navbar bg='dark' variant='dark'>

@@ -5,6 +5,7 @@ import EpRadio from "./components/EpRadio";
 import AllCards from "./components/AllCards";
 import Altro from "./components/Altro";
 import MusicPlayer from "./components/MusicPlayer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <AllCards />
         <Altro />
         <MusicPlayer />
+        <Footer />
       </div>
     </>
   );

@@ -1,9 +1,9 @@
 import React from "react";
-import "../App.css"; // Make sure to add this CSS file
+import "../App.css";
 
 function MusicPlayer() {
   return (
-    <div className='slim-apple-music-player m'>
+    <div className='slim-apple-music-player'>
       <div className='album-art'>
         <img
           src='https://cdn-images.dzcdn.net/images/cover/4659d4d1655e3bb97f7195bd8ee0e16e/500x500-000000-80-0-0.jpg'
