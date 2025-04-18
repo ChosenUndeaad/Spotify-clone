@@ -1,3 +1,10 @@
 .bg-middle {
   background-color: rgb(53, 54, 61);
 }
+
+.card-title,
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

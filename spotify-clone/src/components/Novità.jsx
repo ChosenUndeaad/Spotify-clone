@@ -12,14 +12,14 @@ function News() {
           <hr />
         </Col>
       </Row>
-      <Row className=''>
-        <Col className=''>
-          <h4>nuova stazione radio</h4>
+      <Row className='mb-5'>
+        <Col className='my-2'>
+          <h5 className='fs-6 text-secondary'>NUOVA STAZIONE RADIO</h5>
           <h3>Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill</h3>
           <img src={musicChill} alt='Apple Music Chill' width='500' />
         </Col>
-        <Col className=''>
-          <h4>nuova stazione radio</h4>
+        <Col className='my-2'>
+          <h5 className='fs-6 text-secondary'>NUOVA STAZIONE RADIO</h5>
           <h3>Ecco la nuova casa della musica latina</h3>
           <img src={musicLatin} alt='Musica Latina' width='500' />
         </Col>

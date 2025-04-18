@@ -6,6 +6,11 @@ function Altro() {
   return (
     <Container fluid>
       <Row>
+        <Col>
+          <h2>Altro da esplorare</h2>
+        </Col>
+      </Row>
+      <Row>
         <Col xs={12} md={4}>
           <Card className='bg-middle text-danger fw-bold border-0 my-2'>
             <Card.Body className='d-flex justify-content-between align-items-center'>
