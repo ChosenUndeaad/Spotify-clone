@@ -17,13 +17,43 @@ function EpRadio() {
       </Row>
       <Row>
         <Col>
-          <div className='singleLineImageContainer'>
-            <img src={img1} alt='' width='300' className='m-1 image' />
-            <img src={img2} alt='' width='300' className='m-1 image' />
-            <img src={img3} alt='' width='300' className='m-1 image' />
-            <img src={img4} alt='' width='300' className='m-1 image' />
-            <img src={img5} alt='' width='300' className='m-1 image' />
-            <img src={img6} alt='' width='300' className='m-1 image' />
+          <div className='singleLineImageContainer d-flex justify-content-between'>
+            <img
+              src={img1}
+              alt=''
+              width='300'
+              className='m-1 image rounded-3'
+            />
+            <img
+              src={img2}
+              alt=''
+              width='300'
+              className='m-1 image rounded-3'
+            />
+            <img
+              src={img3}
+              alt=''
+              width='300'
+              className='m-1 image rounded-3'
+            />
+            <img
+              src={img4}
+              alt=''
+              width='300'
+              className='m-1 image rounded-3'
+            />
+            <img
+              src={img5}
+              alt=''
+              width='300'
+              className='m-1 image rounded-3'
+            />
+            <img
+              src={img6}
+              alt=''
+              width='300'
+              className='m-1 image rounded-3'
+            />
           </div>
         </Col>
       </Row>
