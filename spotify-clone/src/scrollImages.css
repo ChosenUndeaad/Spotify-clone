@@ -1,0 +1,8 @@
+.singleLineImageContainer {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+.image {
+  background-color: #fff;
+}

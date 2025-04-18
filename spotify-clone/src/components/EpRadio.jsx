@@ -5,6 +5,7 @@ import img3 from "../assets/images/2c.png";
 import img4 from "../assets/images/2d.png";
 import img5 from "../assets/images/2e.png";
 import img6 from "../assets/images/2f.png";
+import "../scrollImages.css";
 
 function EpRadio() {
   return (
@@ -16,11 +17,14 @@ function EpRadio() {
       </Row>
       <Row>
         <Col>
-          <img src={img1} alt='' width='400' className='m-1' />
-          <img src={img2} alt='' width='400' className='m-1' />
-          <img src={img3} alt='' width='400' className='m-1' />
-          <img src={img4} alt='' width='400' className='m-1' />
-          <img src={img5} alt='' width='400' className='m-1' />
+          <div className='singleLineImageContainer'>
+            <img src={img1} alt='' width='300' className='m-1 image' />
+            <img src={img2} alt='' width='300' className='m-1 image' />
+            <img src={img3} alt='' width='300' className='m-1 image' />
+            <img src={img4} alt='' width='300' className='m-1 image' />
+            <img src={img5} alt='' width='300' className='m-1 image' />
+            <img src={img6} alt='' width='300' className='m-1 image' />
+          </div>
         </Col>
       </Row>
     </Container>

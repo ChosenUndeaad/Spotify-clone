@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import musicChill from "../assets/images/1a.png";
 import musicLatin from "../assets/images/1b.png";
+import "../scrollImages.css";
 
 function News() {
   return (
