@@ -8,7 +8,7 @@ function MyNavbar() {
     <Navbar bg='dark' variant='dark'>
       <Container>
         <NavDropdown
-          title={<i class='bi bi-list'></i>}
+          title={<i className='bi bi-list'></i>}
           id='basic-nav-dropdown'
           className='text-danger'
         >

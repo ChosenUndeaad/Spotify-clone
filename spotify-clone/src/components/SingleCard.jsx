@@ -1,12 +1,15 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 function SingleCard({ title, image, artist }) {
   return (
-    <Card style={{ width: "18rem", marginBottom: "1rem" }}>
-      <Card.Img variant='top' src={image} />
+    <Card className='h-100'>
+      <Card.Img
+        variant='top'
+        src={image}
+        style={{ objectFit: "cover", height: "200px" }}
+      />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title className='text-truncate'>{title}</Card.Title>
       </Card.Body>
     </Card>
   );
